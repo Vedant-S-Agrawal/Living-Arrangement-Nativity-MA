@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuscript and Supplementary Material</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #03045e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            color: #0077b6;
+            border-bottom: 2px solid #00b4d8;
+            padding-bottom: 5px;
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .pdf-section {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            background-color: #0077b6;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: 16px;
+        }
+        .download-button:hover {
+            background-color: #00b4d8;
+        }
+        .pdf-container {
+            position: relative;
+            width: 100%;
+            padding-top: 75%; /* 4:3 Aspect Ratio */
+            margin-bottom: 20px;
+        }
+        .pdf-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        footer {
+            background-color: #03045e;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            font-size: 14px;
+        }
+        /* Responsive Tables */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 20px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+            p, .download-button, footer {
+                font-size: 12px;
+            }
+            .pdf-container {
+                padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            }
+            .download-button {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+            .pdf-container iframe {
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Poster and Manuscript</h1>
+    </header>
+
+    <div class="container">
+        <!-- Manuscript PDF Section -->
+        <div class="pdf-section">
+            <a href="Living_Poster.pdf" class="download-button" download>Download Manuscript PDF</a>
+            <div class="pdf-container">
+                <iframe src="Living_Poster.pdf" title="Poster PDF">
+                    This browser does not support PDFs. Please download the PDF to view it: <a href="Manuscript PDF.pdf">Download Manuscript PDF</a>.
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Supplement PDF Section -->
+        <div class="pdf-section">
+            <a href="Living_Paper.pdf" class="download-button" download>Download Supplement PDF</a>
+            <div class="pdf-container">
+                <iframe src="Living_Paper.pdf" title="Manuscript in Progress">
+                    This browser does not support PDFs. Please download the PDF to view it: <a href="Supplement PDF.pdf">Download Supplement PDF</a>.
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; Nativity Differences Within Living Arrangement and Cognitive Impairment in Older Mexican Americans Over 12 years of Follow-Up 
+    </footer>
+
+</body>
+</html>
