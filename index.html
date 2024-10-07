@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manuscript and Supplementary Material</title>
+    <title>Poster and Manuscript</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -75,7 +75,7 @@
             position: relative;
             font-size: 14px;
         }
-        /* Responsive Tables */
+        /* Responsive Styles */
         @media (max-width: 768px) {
             h1 {
                 font-size: 20px;
@@ -93,9 +93,13 @@
                 padding: 8px 16px;
                 font-size: 14px;
             }
-            .pdf-container iframe {
-                height: 100%;
-            }
+        }
+        .references {
+            margin-top: 30px;
+        }
+        .reference-item {
+            margin-bottom: 10px;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -106,29 +110,84 @@
     </header>
 
     <div class="container">
-        <!-- Manuscript PDF Section -->
+        <!-- Poster PDF Section -->
         <div class="pdf-section">
             <a href="Living_Poster.pdf" class="download-button" download>Download Poster PDF</a>
             <div class="pdf-container">
                 <iframe src="Living_Poster.pdf" title="Poster PDF">
-                    This browser does not support PDFs. Please download the PDF to view it: <a href="Manuscript PDF.pdf">Download Manuscript PDF</a>.
+                    This browser does not support PDFs. Please download the PDF to view it: <a href="Living_Poster.pdf">Download Poster PDF</a>.
                 </iframe>
             </div>
         </div>
 
-        <!-- Supplement PDF Section -->
+        <!-- Manuscript PDF Section -->
         <div class="pdf-section">
             <a href="Living_Paper.pdf" class="download-button" download>Download Manuscript PDF</a>
             <div class="pdf-container">
                 <iframe src="Living_Paper.pdf" title="Manuscript in Progress">
-                    This browser does not support PDFs. Please download the PDF to view it: <a href="Supplement PDF.pdf">Download Supplement PDF</a>.
+                    This browser does not support PDFs. Please download the PDF to view it: <a href="Living_Paper.pdf">Download Manuscript PDF</a>.
                 </iframe>
             </div>
+        </div>
+
+        <!-- References Section -->
+        <div class="references">
+            <h2>References</h2>
+            <ol>
+                <li class="reference-item">Ortman J, Velkoff V, Hogan H. An Aging Nation: The Older Population in the United States. U.S. Census Bureau; 2014:25-1140.</li>
+                <li class="reference-item">Hummer RA, Gutin I. Racial/Ethnic and Nativity Disparities in the Health of Older U.S. Men and Women. In: Future Directions for the Demography of Aging: Proceedings of a Workshop. National Academies Press (US); 2018. Accessed March 23, 2024. <a href="https://www.ncbi.nlm.nih.gov/books/NBK513079/">https://www.ncbi.nlm.nih.gov/books/NBK513079/</a></li>
+                <li class="reference-item">To TM. Nativity, Immigration, and Cardiovascular Health in Older Mexican-Origin Adults. UCSF; 2017. Accessed March 25, 2024. <a href="https://escholarship.org/uc/item/7vt4992s">https://escholarship.org/uc/item/7vt4992s</a></li>
+                <li class="reference-item">Moon H, Kim H, Rote SM, Haley WE, Sears JS. The Effects of Nativity Status on Well-Being Among Medicare Beneficiaries by Race/Ethnicity: A Multi-group Analysis. J Immigr Minor Health. 2021;23(4):755-763. doi:10.1007/s10903-020-01072-9</li>
+                <li class="reference-item">Weden MM, Miles JNV, Friedman E, et al. The Hispanic Paradox: Race/ethnicity and Nativity, Immigrant Enclave Residence and Cognitive Impairment among Older US Adults. J Am Geriatr Soc. 2017;65(5):1085-1091. doi:10.1111/jgs.14806</li>
+                <li class="reference-item">Shariff-Marco S, Gomez SL, Canchola AJ, et al. Nativity, ethnic enclave residence, and breast cancer survival among Latinas -  Variations between California and Texas. Cancer. 2020;126(12):2849-2858. doi:10.1002/cncr.32845</li>
+                <li class="reference-item">Wu S, Rodriguez F, Jin H, Vega WA. Latino and Alzheimer’s: Social Determinants and Personal Factors Contributing to Disease Risk. In: Vega WA, Angel JL, Gutiérrez Robledo LMF, Markides KS, eds. Contextualizing Health and Aging in the Americas: Effects of Space, Time and Place. Springer International Publishing; 2019:63-84. doi:10.1007/978-3-030-00584-9_4</li>
+                <li class="reference-item">Muhammad T, Srivastava S, Sekher TV. Assessing socioeconomic inequalities in cognitive impairment among older adults: a study based on a cross-sectional survey in India. BMC Geriatr. 2022;22(1):389. doi:10.1186/s12877-022-03076-6</li>
+                <li class="reference-item">Greenfield EA, Moorman S, Rieger A. Life Course Pathways From Childhood Socioeconomic Status to Later-Life Cognition: Evidence From the Wisconsin Longitudinal Study. J Gerontol B Psychol Sci Soc Sci. 2021;76(6):1206-1217. doi:10.1093/geronb/gbaa062</li>
+                <li class="reference-item">Lamidi EO, Nash SP. Two Decades of Change in Living Arrangements and Health of Middle-Aged and Older Adults in the U.S., 1997-2018. J Appl Gerontol Off J South Gerontol Soc. 2022;41(5):1407-1420. doi:10.1177/07334648221074685</li>
+                <li class="reference-item">Schüssler S, Lohrmann C. Change in Care Dependency and Nursing Care Problems in Nursing Home Residents with and without Dementia: A 2-Year Panel Study. PloS One. 2015;10(10):e0141653. doi:10.1371/journal.pone.0141653</li>
+                <li class="reference-item">Villa AR, Guerrero E, Villa AM, et al. The Paradoxical Effect of Living Alone on Cognitive Reserve and Mild Cognitive Impairment among Women Aged 60+ in Mexico City. Int J Environ Res Public Health. 2021;18(20):10939. doi:10.3390/ijerph182010939</li>
+                <li class="reference-item">Mazzuco S, Meggiolaro S, Ongaro F, Toffolutti V. Living arrangement and cognitive decline among older people in Europe. Ageing Soc. 2017;37(6):1111-1133. doi:10.1017/S0144686X16000374</li>
+                <li class="reference-item">Chen Y, Cui PY, Pan YY, Li YX, Waili N, Li Y. Association between housing environment and depressive symptoms among older people: a multidimensional assessment. BMC Geriatr. 2021;21:259. doi:10.1186/s12877-021-02207-9</li>
+                <li class="reference-item">Roystonn K, Abdin E, Shahwan S, et al. Living arrangements and cognitive abilities of community-dwelling older adults in Singapore. Psychogeriatrics. 2020;20(5):625-635. doi:10.1111/psyg.12532</li>
+                <li class="reference-item">Evans IEM, Llewellyn DJ, Matthews FE, Woods RT, Brayne C, Clare L. Living alone and cognitive function in later life. Arch Gerontol Geriatr. 2019;81:222-233. doi:10.1016/j.archger.2018.12.014</li>
+                <li class="reference-item">Markides KS, Rote S. The Healthy Immigrant Effect and Aging in the United States and Other Western Countries. The Gerontologist. 2019;59(2):205-214. doi:10.1093/geront/gny136</li>
+                <li class="reference-item">Mizoguchi N, Walker L, Trevelyan E, Ahmed B. The Older Foreign-Born Population in the United States: 2012-2016.</li>
+                <li class="reference-item">Ventura J, Downer B, Li CY, Snih SA. Nativity differences in the relationship between handgrip strength and cognitive impairment in older Mexican Americans over 20 years of follow-up. Arch Gerontol Geriatr. 2023;107:104903. doi:10.1016/j.archger.2022.104903</li>
+                <li class="reference-item">Garcia MA, Tarraf W. A nuanced portrait of how race/ethnicity and nativity influence cognitive trajectories among older adults in the United States. Alzheimers Dement. 2021;17(S10):e056644. doi:10.1002/alz.056644</li>
+                <li class="reference-item">Garcia M, Reyes A, Downer B. RACIAL/ETHNIC AND NATIVITY DIFFERENTIALS IN COGNITIVE TRAJECTORIES AMONG OLDER ADULTS IN THE UNITED STATES. Innov Aging. 2018;2(suppl_1):47. doi:10.1093/geroni/igy023.176</li>
+                <li class="reference-item">Markides K, Chen NW, Angel R, Palmer R, Graham J. Hispanic Established Populations for the Epidemiologic Study of the Elderly (HEPESE) Wave 7, 2010-2011 [Arizona, California, Colorado, New Mexico, and Texas]: Version 2. Published online 2016. doi:10.3886/ICPSR36537.V2</li>
+                <li class="reference-item">Folstein MF, Folstein SE, McHugh PR. “Mini-mental state”. A practical method for grading the cognitive state of patients for the clinician. J Psychiatr Res. 1975;12(3):189-198. doi:10.1016/0022-3956(75)90026-6</li>
+                <li class="reference-item">Bird HR, Canino G, Stipec MR, Shrout P. Use of the Mini-mental State Examination in a probability sample of a Hispanic population. J Nerv Ment Dis. 1987;175(12):731-737. doi:10.1097/00005053-198712000-00005</li>
+                <li class="reference-item">Crum RM, Anthony JC, Bassett SS, Folstein MF. Population-based norms for the Mini-Mental State Examination by age and educational level. JAMA. 1993;269(18):2386-2391.</li>
+                <li class="reference-item">Raji MA, Al Snih S, Ostir GV, Markides KS, Ottenbacher KJ. Cognitive status and future risk of frailty in older Mexican Americans. J Gerontol A Biol Sci Med Sci. 2010;65(11):1228-1234. doi:10.1093/gerona/glq121</li>
+                <li class="reference-item">LIANG KY, ZEGER SL. Longitudinal data analysis using generalized linear models. Biometrika. 1986;73(1):13-22. doi:10.1093/biomet/73.1.13</li>
+                <li class="reference-item">Zeger SL, Liang KY. Longitudinal Data Analysis for Discrete and Continuous Outcomes. Biometrics. 1986;42(1):121-130. doi:10.2307/2531248</li>
+                <li class="reference-item">WEDDERBURN RWM. Quasi-likelihood functions, generalized linear models, and the Gauss—Newton method. Biometrika. 1974;61(3):439-447. doi:10.1093/biomet/61.3.439</li>
+                <li class="reference-item">Grande G, Vetrano DL, Cova I, et al. Living Alone and Dementia Incidence: A Clinical-Based Study in People With Mild Cognitive Impairment. J Geriatr Psychiatry Neurol. 2018;31(3):107-113. doi:10.1177/0891988718774425</li>
+                <li class="reference-item">Portacolone E, Rubinstein RL, Covinsky KE, Halpern J, Johnson JK. The Precarity of Older Adults Living Alone With Cognitive Impairment. The Gerontologist. 2019;59(2):271-280. doi:10.1093/geront/gnx193</li>
+                <li class="reference-item">Desai R, John A, Stott J, Charlesworth G. Living alone and risk of dementia: A systematic review and meta-analysis. Ageing Res Rev. 2020;62:101122. doi:10.1016/j.arr.2020.101122</li>
+                <li class="reference-item">Guarnera J, Yuen E, Macpherson H. The Impact of Loneliness and Social Isolation on Cognitive Aging: A Narrative Review. J Alzheimers Dis Rep. 7(1):699-714. doi:10.3233/ADR-230011</li>
+                <li class="reference-item">Cardona M, Andrés P. Are social isolation and loneliness associated with cognitive decline in ageing? Front Aging Neurosci. 2023;15:1075563. doi:10.3389/fnagi.2023.1075563</li>
+                <li class="reference-item">Perissinotto CM, Covinsky KE. Living Alone, Socially Isolated or Lonely—What are We Measuring? J Gen Intern Med. 2014;29(11):1429-1431. doi:10.1007/s11606-014-2977-8</li>
+                <li class="reference-item">Gilbert SM, Nemeth L, Amella E, Edlund B, Burggraf V. Adult Children and the Transition of Aging Parents. Issues Ment Health Nurs. 2018;39(5):374-381. doi:10.1080/01612840.2018.1434842</li>
+                <li class="reference-item">Choi H, Schoeni RF, Langa KM, Heisler MM. Older Adults’ Residential Proximity to Their Children: Changes After Cardiovascular Events. J Gerontol B Psychol Sci Soc Sci. 2015;70(6):995-1004. doi:10.1093/geronb/gbu076</li>
+                <li class="reference-item">Mudrazija S, Angel JL, Cipin I, Smolic S. Living Alone in the United States and Europe: The Impact of Public Support on the Independence of Older Adults. Res Aging. 2020;42(5-6):150-162. doi:10.1177/0164027520907332</li>
+                <li class="reference-item">Kritz M, Gurak D, Chen L. Elderly Immigrants: Their Composition and Living Arrangements. J Sociol Soc Welf. 2000;27(1). doi:10.15453/0191-5096.2629</li>
+                <li class="reference-item">Landale NS, Oropesa RS, Bradatan C. Hispanic Families in the United States: Family Structure and Process in an Era of Family Change. In: Hispanics and the Future of America. National Academies Press (US); 2006. Accessed August 14, 2024. <a href="https://www.ncbi.nlm.nih.gov/books/NBK19902/">https://www.ncbi.nlm.nih.gov/books/NBK19902/</a></li>
+                <li class="reference-item">Angel JL, Rote SM, Brown DC, Angel RJ, Markides KS. Nativity status and sources of care assistance among elderly Mexican-Origin Adults. J Cross-Cult Gerontol. 2014;29(3):243. doi:10.1007/s10823-014-9234-9</li>
+                <li class="reference-item">Vila-Castelar C, Fox-Fuller JT, Guzmán-Vélez E, Schoemaker D, Quiroz YT. A cultural approach to dementia — insights from US Latino and other minoritized groups. Nat Rev Neurol. 2022;18(5):307-314. doi:10.1038/s41582-022-00630-z</li>
+                <li class="reference-item">A Longitudinal Analysis of the Association Between Living Arrangements and Health Among Older Adults in China - Zi Zhou, Fanzhen Mao, Jiaping Ma, Shichao Hao, Zhengmin (Min) Qian, Keith Elder, Jason S. Turner, Ya Fang, 2018. Accessed March 5, 2024. <a href="https://journals-sagepub-com.libux.utmb.edu/doi/full/10.1177/0164027516680854">https://journals-sagepub-com.libux.utmb.edu/doi/full/10.1177/0164027516680854</a></li>
+                <li class="reference-item">Verdaguer S, Ramya R, Hernández M, Flórez KR. Examining the Independent Association Between Acculturative Stress and Psychological Distress Among Mexican Immigrants in New York City: An Exploratory Study. Health Equity. 2023;7(1):197-205. doi:10.1089/heq.2022.0137</li>
+                <li class="reference-item">Smokowski P, Rose R, Bacallao M. Acculturation and Latino Family Processes: How Cultural Involvement, Biculturalism, and Acculturation Gaps Influence Family Dynamics. Fam Relat. 2008;57(3). Accessed September 24, 2024. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1741-3729.2008.00501.x">https://onlinelibrary.wiley.com/doi/full/10.1111/j.1741-3729.2008.00501.x</a></li>
+                <li class="reference-item">Muñoz E, Gallo LC, Hua S, et al. Stress Is Associated With Neurocognitive Function in Hispanic/Latino Adults: Results From HCHS/SOL Socio-Cultural Ancillary Study. J Gerontol B Psychol Sci Soc Sci. 2019;76(4):e122-e128. doi:10.1093/geronb/gbz144</li>
+                <li class="reference-item">Yu Y, Lv J, Liu J, Chen Y, Chen K, Yang Y. Association between living arrangements and cognitive decline in older adults: A nationally representative longitudinal study in China. BMC Geriatr. 2022;22:843. doi:10.1186/s12877-022-03473-x</li>
+                <li class="reference-item">García C, Garcia MA, Ailshire JA. Demographic and Health Characteristics of Older Latino Birth Cohorts in the Health and Retirement Study. J Gerontol B Psychol Sci Soc Sci. 2022;77(11):2060-2071. doi:10.1093/geronb/gbac017</li>
+            </ol>
         </div>
     </div>
 
     <footer>
-        &copy; Nativity Differences Within Living Arrangement and Cognitive Impairment in Older Mexican Americans Over 12 years of Follow-Up 
+        &copy; Nativity Differences Within Living Arrangement and Cognitive Impairment in Older Mexican Americans Over 12 years of Follow-Up
     </footer>
 
 </body>
